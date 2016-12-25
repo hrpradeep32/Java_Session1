@@ -1,0 +1,16 @@
+
+public class Ascii 
+{
+
+	public static void main(String[] args) 
+	
+	{
+		String C;
+		for (int i=65; i<=90 ; i++)
+			{
+				C = new Character((char)i).toString();
+				System.out.println(i+ "-" +C);		
+			}
+	}
+
+}
